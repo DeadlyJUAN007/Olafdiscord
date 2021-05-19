@@ -18,7 +18,7 @@ module.exports.run = async (client, message, args, options) => {
 module.exports.help = {
     name: "resume",
     description: "Resume the current song playing.",
-    category: "Music",
+    category: "",
     aliases: ["hervat"]
 }
 

@@ -97,7 +97,7 @@ module.exports.run = async (client, message, args, options) => {
 module.exports.help = {
     name: "play",
     description: "Play a song in discord!",
-    category: "Music",
+    category: "",
     aliases: ["speel"]
 }
 

@@ -18,7 +18,7 @@ module.exports.run = async (client, message, args) => {
 module.exports.help = {
     name: "leave",
     description: "Let the bot leave out of your voice channel!",
-    category: "Music",
+    category: "",
     aliases: ["dis", "disconnect", "go_away"]
 }
 
