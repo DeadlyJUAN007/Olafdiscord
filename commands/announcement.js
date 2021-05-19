@@ -31,13 +31,13 @@ module.exports.run = async (client, message, args) => {
 
     }
 
-    
+    var everyoneRole = message.guild.roles.cache.get('565585924658823190');
 
     var announceEmbed = new discord.MessageEmbed()
         .setTitle("**Announcement**")
         .setColor(options.color)
         .setDescription(`Message from ${message.author} \n\n ${options.titel} \n\n ${options.message}`)
-        .addField(`${5655859924658823190}`)
+        .addField("@" + everyoneRole)
         .setTimestamp();
 
     var channel = message.member.guild.channels.cache.find(channels => channels.name === options.channel);
