@@ -31,7 +31,7 @@ module.exports.run = async (client, message, args) => {
 
     }
 
-    var everyoneRole = message.guild.roles.cache.get('565585924658823190');
+    var everyoneRole = message.guild.roles.cache.get('everyone');
 
     var announceEmbed = new discord.MessageEmbed()
         .setTitle("**Announcement**")
