@@ -24,9 +24,9 @@ var con = mysql.createConnection({
     database: database.database
 });
 
-// con.connect(err => {
-//     if (err) throw err;
-// });
+con.connect(err => {
+    if (err) throw err;
+});
 
 
 fs.readdir("./commands/", (err, files) => {
