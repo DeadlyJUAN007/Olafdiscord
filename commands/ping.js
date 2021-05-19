@@ -8,7 +8,9 @@ module.exports.run = async (client, message, args) => {
 
     // return message.channel.send(`🏓Pong: ${sendTime}ms`);
 
-    return message.channel.send("🏓Pong:" + (message.createdTimestamp - Date.now()) +  " ms");
+    // return message.channel.send("🏓Pong:" + (message.createdTimestamp - Date.now()) +  " ms");
+
+    return message.channel.send(`🏓Pong: ${time}ms`);
 }
 
 module.exports.help = {
