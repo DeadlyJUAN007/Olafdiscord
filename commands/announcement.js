@@ -31,8 +31,6 @@ module.exports.run = async (client, message, args) => {
 
     }
 
-    message.channel.send(`Announcement made in ${channel}`);
-
     var announceEmbed = new discord.MessageEmbed()
         .setTitle("**Announcement**")
         .setColor(options.color)
@@ -43,7 +41,8 @@ module.exports.run = async (client, message, args) => {
     if (!channel) return message.reply("This channel doesn't exist");
 
     channel.send(announceEmbed);
-
+    
+    message.channel.send(`Announcement made in ${channel}`);
 }
 
 module.exports.help = {
