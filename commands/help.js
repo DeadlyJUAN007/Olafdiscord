@@ -33,7 +33,7 @@ module.exports.run = async (client, message, args) => {
     var response = "**Olaf Bot Commands**\n\n";
     // var edit = "**__Commands__**\n\n";
     var general = "**__Generaly__**\n";
-    var music = "\n**__Music__**\n";
+    // var music = "\n**__Music__**\n";
     var info = "\n**__Information__**\n";
     var mod = "\n**__Moderation__**\n";
 
@@ -44,9 +44,9 @@ module.exports.run = async (client, message, args) => {
 
             general += `${prefix}${command["name"]} - ${command["description"]}\n`;
 
-        } else if (command["category"] == "Music") {
+        // } else if (command["category"] == "Music") {
 
-            music += `${prefix}${command["name"]} - ${command["description"]}\n`;
+            // music += `${prefix}${command["name"]} - ${command["description"]}\n`;
 
         } else if (command["category"] == "Information") {
 
@@ -62,7 +62,7 @@ module.exports.run = async (client, message, args) => {
 
     // response += edit;
     response += general;
-    response += music;
+    // response += music;
     response += info;
     response += mod;
 
