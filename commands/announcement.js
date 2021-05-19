@@ -35,7 +35,7 @@ module.exports.run = async (client, message, args) => {
         .setTitle("**Announcement**")
         .setColor(options.color)
         .setDescription(`Message from ${message.author} \n\n ${options.titel} \n\n ${options.message}`)
-        .addField("@here")
+        .addField(message.guild.mention("here"))
         .setTimestamp();
 
     var channel = message.member.guild.channels.cache.find(channels => channels.name === options.channel);
