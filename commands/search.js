@@ -39,7 +39,7 @@ module.exports.run = async (client, message, args, ops) => {
 }
 
 module.exports.help = {
-//     name: "search",
+    name: "search",
 //     description: "Search a song on Youtube.",
 //     category: "Music",
 //     aliases: ["zoeken", "find"]

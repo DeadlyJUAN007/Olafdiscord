@@ -1,7 +1,7 @@
 // const discord = require("discord.js");
 // const ytdl = require("ytdl-core");
 
-// module.exports.run = async (client, message, args) => {
+module.exports.run = async (client, message, args) => {
 
 //     if (!message.member.voice.channel) return message.reply("❌**You have to be in a voice channel to use this command**");
 
@@ -13,13 +13,13 @@
 
 //     message.channel.send("📭 **Successfully disconnected**");
 
-// }
+}
 
-// module.exports.help = {
-//     name: "leave",
+module.exports.help = {
+    name: "leave",
 //     description: "Let the bot leave out of your voice channel!",
 //     category: "Music",
 //     aliases: ["dis", "disconnect", "go_away"]
-// }
+}
 
 // // Usage: **!leave**
