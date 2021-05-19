@@ -18,9 +18,9 @@ module.exports.run = async (client, message, args, options) => {
 
 module.exports.help = {
     name: "pause",
-//     description: "Pause the current song playing.",
-//     category: "Music",
-//     aliases: ["pauzeer", "pauze"]
+    description: "Pause the current song playing.",
+    category: "Music",
+    aliases: ["pauzeer", "pauze"]
 }
 
 // // Usage: **!pause**

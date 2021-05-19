@@ -23,9 +23,9 @@ module.exports.run = async (client, message, args, options) => {
 
 module.exports.help = {
     name: "queue",
-//     description: "Shows you the queue.",
-//     category: "Music",
-//     aliases: ["afspeellijst", "wachtrij"]
+    description: "Shows you the queue.",
+    category: "Music",
+    aliases: ["afspeellijst", "wachtrij"]
 }
 
 // // Usage: **!queue**

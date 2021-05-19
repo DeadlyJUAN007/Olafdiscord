@@ -40,9 +40,9 @@ module.exports.run = async (client, message, args, ops) => {
 
 module.exports.help = {
     name: "search",
-//     description: "Search a song on Youtube.",
-//     category: "Music",
-//     aliases: ["zoeken", "find"]
+    description: "Search a song on Youtube.",
+    category: "Music",
+    aliases: ["zoeken", "find"]
 }
 
 // // Usage: **!search {song name}**
