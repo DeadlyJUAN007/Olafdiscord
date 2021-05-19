@@ -1,11 +1,10 @@
 module.exports.run = async (client, message, args) => {
 
-    
+    message.channel.send('Calculating ping...').then(resultMessage => {
+        const ping = resultMessage.createdTimestamp - message.createdTimestamp
 
-
-
-
-
+        resultMessage.edit(`Bot delay: ${ping}, API delay: ${client.ws.ping}`)
+    })
 
 
 
@@ -25,7 +24,7 @@ module.exports.run = async (client, message, args) => {
 }
 
 module.exports.help = {
-    name: "fesf",
+    name: "ping",
     description: "See how fast the bot reacts.",
     category: "Information",
     aliases: []
