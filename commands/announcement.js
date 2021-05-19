@@ -31,6 +31,8 @@ module.exports.run = async (client, message, args) => {
 
     }
 
+    message.channel.send(`Announcement made in ${channel}`);
+
     var announceEmbed = new discord.MessageEmbed()
         .setTitle("**Announcement**")
         .setColor(options.color)
@@ -51,4 +53,4 @@ module.exports.help = {
     aliases: ["aankondiging"]
 }
 
-// Usage: **!announcement {title} {color} {message} {channel}** 
+// Usage: **!announcement {title} {message} {color} {channel}** 
