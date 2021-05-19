@@ -31,6 +31,8 @@ module.exports.run = async (client, message, args) => {
 
     }
 
+    message.delete().catch();
+
     // var everyoneRole = message.guild.roles.cache.get('everyone');
 
     var announceEmbed = new discord.MessageEmbed()
