@@ -1,0 +1,31 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "Discord",
+    "C.E.T",
+    "Bot",
+    "Olaf"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "moment": "^2.29.0",
+    "ms": "^2.1.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "yt-search": "^2.3.2",
+    "ytdl-core": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
