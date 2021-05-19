@@ -31,11 +31,13 @@ module.exports.run = async (client, message, args) => {
 
     }
 
+    
+
     var announceEmbed = new discord.MessageEmbed()
         .setTitle("**Announcement**")
         .setColor(options.color)
         .setDescription(`Message from ${message.author} \n\n ${options.titel} \n\n ${options.message}`)
-        .addField(message.guild.mention("here"))
+        .addField(`${5655859924658823190}`)
         .setTimestamp();
 
     var channel = message.member.guild.channels.cache.find(channels => channels.name === options.channel);
