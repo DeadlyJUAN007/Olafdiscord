@@ -8,3 +8,10 @@ module.exports = {
         })
     }
 }
+
+module.exports.help = {
+    name: "ping",
+    description: "See how fast the bot reacts.",
+    category: "Information",
+    aliases: []
+}
