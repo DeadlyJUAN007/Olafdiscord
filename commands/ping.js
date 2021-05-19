@@ -3,7 +3,7 @@ module.exports.run = async (client, message, args) => {
     message.channel.send('Calculating ping...').then(resultMessage => {
         const ping = resultMessage.createdTimestamp - message.createdTimestamp
 
-        resultMessage.edit(`Bot delay: ${ping}, API delay: ${client.ws.ping}`)
+        resultMessage.edit(`**🏓Pong:**\n Bot delay: ${ping}ms, API delay: ${client.ws.ping}ms.`)
     })
 
 
