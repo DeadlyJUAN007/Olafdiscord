@@ -119,7 +119,7 @@ client.on("guildMemberRemove", member => {
 
 client.on("ready", async () => {
 
-    console.log(`${client.user.username} is online`);
+    console.log(`${client.user.username} is online!🤖`);
     client.user.setActivity("!help", { type: "PLAYING" });   // { type: "PLAYING" }
 });
 
