@@ -1,7 +1,7 @@
 // const discord = require("discord.js");
 // const ytdl = require("ytdl-core");
 
-// module.exports.run = async (client, message, args, options) => {
+module.exports.run = async (client, message, args, options) => {
 
 //     if (!message.member.voice.channel) return message.reply("❌**You have to be in a voice channel to use this command**");
 
@@ -92,14 +92,14 @@
 //         if (voiceChannel) voiceChannel.leave();
 //     }
 
-// }
+}
 
-// module.exports.help = {
-//     name: "play",
-//     description: "Play a song in discord!",
-//     category: "Music",
-//     aliases: ["speel"]
-// }
+module.exports.help = {
+    // name: "play",
+    // description: "Play a song in discord!",
+    // category: "Music",
+    // aliases: ["speel"]
+}
 
 // // Usage: **!play <URL>** 
 

@@ -1,5 +1,5 @@
 
-// module.exports.run = async (client, message, args, options) => {
+module.exports.run = async (client, message, args, options) => {
 
 //     var guildIDData = options.active.get(message.guild.id);
 
@@ -13,13 +13,13 @@
 
 //     return message.channel.send("⏯ **Resuming** 👍");
 
-// }
+}
 
-// module.exports.help = {
+module.exports.help = {
 //     name: "resume",
 //     description: "Resume the current song playing.",
 //     category: "Music",
 //     aliases: ["hervat"]
-// }
+}
 
 // // Usage: **!resume**

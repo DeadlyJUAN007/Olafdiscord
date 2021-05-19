@@ -1,6 +1,6 @@
 // const discord = require("discord.js");
 
-// module.exports.run = async (client, message, args, options) => {
+module.exports.run = async (client, message, args, options) => {
 
 //     var guildIDData = options.active.get(message.guild.id);
 
@@ -19,13 +19,13 @@
 
 //     message.channel.send(response);
 
-// }
+}
 
-// module.exports.help = {
+module.exports.help = {
 //     name: "queue",
 //     description: "Shows you the queue.",
 //     category: "Music",
 //     aliases: ["afspeellijst", "wachtrij"]
-// }
+}
 
 // // Usage: **!queue**

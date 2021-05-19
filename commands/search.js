@@ -1,6 +1,6 @@
 // const search = require("yt-search");
 
-// module.exports.run = async (client, message, args, ops) => {
+module.exports.run = async (client, message, args, ops) => {
 
 //     search(args.join(" "), function (err, res) {
 
@@ -36,13 +36,13 @@
 
 //     });
 
-// }
+}
 
-// module.exports.help = {
+module.exports.help = {
 //     name: "search",
 //     description: "Search a song on Youtube.",
 //     category: "Music",
 //     aliases: ["zoeken", "find"]
-// }
+}
 
 // // Usage: **!search {song name}**

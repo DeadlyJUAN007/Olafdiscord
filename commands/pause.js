@@ -1,6 +1,6 @@
 // const discord = require("discord.js");
 
-// module.exports.run = async (client, message, args, options) => {
+module.exports.run = async (client, message, args, options) => {
 
 //     var guildIDData = options.active.get(message.guild.id);
 
@@ -14,13 +14,13 @@
 
 //     return message.channel.send("**Paused** ⏸");
 
-// }
+}
 
-// module.exports.help = {
+module.exports.help = {
 //     name: "pause",
 //     description: "Pause the current song playing.",
 //     category: "Music",
 //     aliases: ["pauzeer", "pauze"]
-// }
+}
 
 // // Usage: **!pause**
