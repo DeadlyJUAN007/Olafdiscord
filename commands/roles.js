@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
     });
 
     con.connect(err => {
-        if (err) throw err;
+        if (err) message.channel.send("Something went wrong.");
     });
 
     // !role gebruiker rolNaam verwijderenBool
