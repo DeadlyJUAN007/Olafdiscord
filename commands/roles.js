@@ -93,7 +93,7 @@ module.exports.run = async (client, message, args) => {
 
 
     } else {
-        message.channel.send("Usage: !role @username rolename remove");
+        message.channel.send("Usage: !role @username rolename yes");
     }
 
 
